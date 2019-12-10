@@ -1,0 +1,27 @@
+{
+  "name": "think-less",
+  "version": "1.0.0",
+  "description": "A less middleware for thinkjs 3.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/think-less.git"
+  },
+  "keywords": [
+    "thinkjs",
+    "less"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/think-less/issues"
+  },
+  "homepage": "https://github.com/chrunlee/think-less#readme",
+  "dependencies": {
+    "less": "^3.10.3",
+    "mkdirsp": "^1.0.1"
+  }
+}
