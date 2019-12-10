@@ -9,7 +9,7 @@ npm install think-less --save-dev
 
 # API
 
-Modify `/src/config/middleware.js` 
+Modify `/src/config/middleware.js` .The less middleware should before `resource` middleware.
 
 ```
 const less = require('think-less');
@@ -36,4 +36,10 @@ module.exports = [
 
 - root : Root directory to find less file .
 - target : Root directory to place css file .
-- lessOptions : Options of [https://github.com/less/less.js](Less.js)
+- lessOptions : Options of [Less.js](https://github.com/less/less.js)
+
+
+
+# License
+
+MIT LICENSE
